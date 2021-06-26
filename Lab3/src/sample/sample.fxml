@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="txtLicznil" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="380.0" prefWidth="800.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Button fx:id="btnMain" layoutX="282.0" layoutY="83.0" mnemonicParsing="false" onAction="#onBtnAction" prefHeight="78.0" prefWidth="236.0" style="-fx-background-color: #000000;" text="Kliknij mnie!" textOverrun="CLIP">
+         <textFill>
+            <LinearGradient endX="1.0" endY="0.7557251780997706" startX="1.0" startY="0.38549612496645397">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.9942196607589722" green="1.0" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.007680491551459294">
+                     <color>
+                        <Color red="0.9942196607589722" green="1.0" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.8899999856948853" blue="0.7099422216415405" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+         <font>
+            <Font name="Century" size="19.0" />
+         </font>
+      </Button>
+      <TextField fx:id="txtLicznik" layoutX="287.0" layoutY="202.0">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font>
+      </TextField>
+   </children>
+</AnchorPane>
